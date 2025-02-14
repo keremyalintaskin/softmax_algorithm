@@ -1,14 +1,14 @@
-**Kırklareli Ulaşım Güzergahı Optimizasyonu Projesi**
+#Kırklareli Ulaşım Güzergahı Optimizasyonu Projesi
 Bu proje, Kırklareli'deki belirli mahalleler için en uygun ulaşım güzergahını belirlemek amacıyla geliştirilmiştir. Proje, çeşitli kriterlere göre mahalleleri değerlendirir ve en uygun güzergahı belirlemek için softmax fonksiyonunu kullanır. Ayrıca, maliyet-fayda analizi yaparak en faydalı güzergahı da belirler.
 
-Kullanılan Kütüphaneler
+#Kullanılan Kütüphaneler
 NumPy: Sayısal hesaplamalar için kullanıldı.
 
 Pandas: Veri işleme ve analiz için kullanıldı.
 
 Folium: Harita üzerinde mahallelerin konumlarını göstermek için kullanıldı.
 
-Veri Seti
+#Veri Seti
 Projede kullanılan veri seti aşağıdaki kriterlere göre oluşturulmuştur:
 
 Nüfus Yoğunluğu: Mahallelerin nüfus yoğunluğu.
@@ -21,7 +21,7 @@ Maliyet Analizi: Ulaşım altyapısı geliştirme maliyeti.
 
 Sosyal Fayda: Ulaşım altyapısı geliştirmenin sosyal faydası (1-10 arası puan).
 
-Metodoloji
+#Metodoloji
 Veri Normalizasyonu: Maliyet Analizi ve Çevresel Etki kriterleri tersine çevrilerek normalizasyon yapıldı.
 
 Ağırlıklandırma: Her kriter için belirli ağırlıklar atandı.
@@ -34,31 +34,23 @@ Fayda-Maliyet Oranı Hesaplama: Sosyal Fayda ve Maliyet Analizi kriterleri kulla
 
 Harita Üzerinde Gösterim: Folium kütüphanesi kullanılarak mahallelerin konumları harita üzerinde işaretlendi.
 
-Sonuçlar
+#Sonuçlar
 Proje sonucunda en uygun güzergah ve en faydalı güzergah (maliyet-fayda analizi ile) belirlenmiştir. Sonuçlar aşağıdaki gibidir:
 
 En Uygun Güzergah: en_uygun
 
 En Faydalı Güzergah (Maliyet-Fayda Analizi ile): en_faydalı
 
-Harita
+#Harita
 Proje sonucunda oluşturulan harita kirklareli_harita.html dosyası olarak kaydedilmiştir. Bu dosyayı bir web tarayıcısında açarak mahallelerin konumlarını görüntüleyebilirsiniz.
 
-Nasıl Çalıştırılır?
-Gerekli kütüphaneleri yükleyin:
-
-bash
+#bash
 Copy
 pip install numpy pandas folium
 Proje dosyasını çalıştırın:
 
-bash
+#bash
 Copy
 python proje_dosyasi.py
 Sonuçları konsolda görüntüleyin ve kirklareli_harita.html dosyasını bir web tarayıcısında açın.
 
-Katkıda Bulunma
-Bu proje açık kaynaklıdır. Katkıda bulunmak için lütfen fork edin ve pull request gönderin.
-
-Lisans
-Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına bakın.
