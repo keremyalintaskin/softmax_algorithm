@@ -1,4 +1,4 @@
-Kırklareli Ulaşım Güzergahı Optimizasyonu Projesi
+**Kırklareli Ulaşım Güzergahı Optimizasyonu Projesi**
 Bu proje, Kırklareli'deki belirli mahalleler için en uygun ulaşım güzergahını belirlemek amacıyla geliştirilmiştir. Proje, çeşitli kriterlere göre mahalleleri değerlendirir ve en uygun güzergahı belirlemek için softmax fonksiyonunu kullanır. Ayrıca, maliyet-fayda analizi yaparak en faydalı güzergahı da belirler.
 
 Kullanılan Kütüphaneler
